@@ -1,8 +1,8 @@
 {
-  "homepage": "https://faizaanshaikh2002.github.io",
   "name": "counter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://faizaanshaikh2002.github.io/Counter-App",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
