@@ -20,16 +20,13 @@ function CounterContainer() {
     const handleIncrement = () => {
         let newNumber = Number + 1
         setNumber(newNumber)
-        console.log(newNumber)
         verifyNumber(newNumber)
-        // console.log("i am Increment")
     }
 
     const handleDecrement = () => {
         let newNumber = Number - 1
         setNumber(newNumber)
         verifyNumber(newNumber)
-        // console.log("i am Decrement")
     }
 
     return (
@@ -38,7 +35,6 @@ function CounterContainer() {
                 <div className="container">
                     <h1 >Counter App</h1>
                     <div className="CounterNumberContainer">
-                        {/* <h2 style={{ color: { ColorValue } }}>{Number}</h2> */}
                         <h2 style={{ color: ColorValue }}>{Number}</h2>
                     </div>
                     <div className="buttonsContainer">
